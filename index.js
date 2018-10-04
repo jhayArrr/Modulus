@@ -25,7 +25,7 @@ function howManyTimes (numberStart, numberEnd) {
 }
 }
 
-let number = [4, 7, 11, 99];
+let number = [10, 2]
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
 skipCounting (2, 10, 11);
