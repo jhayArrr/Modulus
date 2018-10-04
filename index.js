@@ -8,20 +8,27 @@ function simpleOperators (numberA, numberB){
   console.log(mutliply);
   console.log(divide);
 }
-
-//Skipcount by 2 for 10 times starting at 0
-function skipCounting (2, 10, 0){
-  let number = 0 - 2;
+//Skipcount by ___ for ___ times starting at ___
+function skipCounting (skipCount, times, startingNumber){
+  let number = startingNumber - skipCount;
   for (let i=1; i<=times; i++){
     number += skipCount;
     console.log(number);
   }
 }
 
-//simpleComparison using WHILE and Skip Counting Algorithm
-function howManyTimes (0, 20, 2) {
-  while (0 < 20) {
-    console.log(numberStart += skipCount); // Used to be 2 lines ... console.log(numberStart); numberStart += skipCount;
-    // What is happening with the single line compared to the double line of code?
-  }
+//simpleComparison
+function howManyTimes (numberStart, numberEnd) {
+ while (numberStart < numberEnd); {
+  console.log(number);
+  number += 5;
+}
+}
+let number = [1, 100]; //Boundary Numbers
+let skipCount = 4; //Number of skipCounting between each element of the sequence, used in FOR Loop
+let difference = number[1] - number[0]; //Difference, mandatory expectation
+let startingNumber = number[1]; //Hint: used in the FOR Loop
+for (let i=0; i<=difference; i++){
+  even = (startingNumber += skipCount) % 2;
+  console.log("This number is", even, "; This iteration is number", i+skipCount); //Example of Concatenating
 }
