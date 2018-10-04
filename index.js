@@ -24,8 +24,16 @@ function howManyTimes (numberStart, numberEnd) {
   number += 5;
 }
 }
-let number = [1, 100]; //Boundary Numbers
-let skipCount = 4; //Number of skipCounting between each element of the sequence, used in FOR Loop
+
+let number = [4, 7, 11, 99];
+simpleOperators (number[0], number[1]);
+simpleOperators (number[2], number[3]);
+skipCounting (2, 10, 11);
+skipCounting (2, 10, 10);
+
+
+let number = [10, 31]; //Boundary Numbers
+let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
 let difference = number[1] - number[0]; //Difference, mandatory expectation
 let startingNumber = number[1]; //Hint: used in the FOR Loop
 for (let i=0; i<=difference; i++){
