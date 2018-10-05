@@ -36,6 +36,7 @@ function howManyTimes (numberStart, numberEnd) {
 }
 }
 
+//using an array
 let number = [10, 29]
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
