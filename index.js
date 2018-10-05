@@ -1,14 +1,3 @@
-// concatenating the numberStart
-let number = [10, 29]; //Boundary Numbers
-let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
-let difference = number[1] - number[0]; //Difference, mandatory expectation
-let startingNumber = number[10]; //Hint: used in the FOR Loop
-for (let i=10; i<=difference; i++){
-  even = (startingNumber += skipCount) % 2;
-  console.log("This number is", even, "; This iteration is number", i+skipCount);
-}
-
-
 function simpleOperators (numberA, numberB){
   let adding = numberA + numberB;
   let subtract = numberA - numberB;
@@ -36,7 +25,7 @@ function howManyTimes (numberStart, numberEnd) {
 }
 }
 
-//using an array
+
 let number = [10, 29]
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
