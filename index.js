@@ -32,8 +32,8 @@ skipCounting (2, 10, 11);
 skipCounting (2, 10, 10);
 
 console.log()
-let oddNumbers = [odds];
-let evenNumbers = [evens];
+let oddNumbers = [oddNumbers];
+let evenNumbers = [evenNumbers];
 
 // Sequence of 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th
 oddNumbers = [11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
