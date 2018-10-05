@@ -42,3 +42,14 @@ evenNumbers = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
 //printing out entire onject]
 console.log(oddNumbers);
 console.log(evenNumbers);
+
+// concatenating the numberStart
+let number = [10, 29]; //Boundary Numbers
+let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
+let difference = number[] - number[]; //Difference, mandatory expectation
+let startingNumber = number[]; //Hint: used in the FOR Loop
+for (let i=10; i<=difference; i++){
+  even = (startingNumber += skipCount) % 2;
+  odd = (i+1 += skipcount) % 2;
+  console.log("This number is", even, "; This iteration is number", i+skipCount); 
+}
