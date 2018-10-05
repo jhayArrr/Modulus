@@ -32,7 +32,7 @@ simpleOperators (number[2], number[3]);
 skipCounting (2, 10, 11);
 skipCounting (2, 10, 10);
 
-console.log(Array)
+console.log()
 let oddNumbers = [];
 let evenNumbers = [];
 
