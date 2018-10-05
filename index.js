@@ -46,7 +46,7 @@ console.log(evenNumbers);
 
 let Numbers = [10, 29]; //Boundary Numbers
 let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
-let difference = number[8] - number[0]; //Difference, mandatory expectation
+let difference = number[1] - number[10]; //Difference, mandatory expectation
 let startingNumber = number[10]; //Hint: used in the FOR Loop
 for (let i=1; i<=difference; i++){
   even = (startingNumber += skipCount) % 10;
