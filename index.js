@@ -2,7 +2,7 @@
 let number = [10, 29]; //Boundary Numbers
 let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
 let difference = number[10] - number[0]; //Difference, mandatory expectation
-let startingNumber = number[]; //Hint: used in the FOR Loop
+let startingNumber = number[10]; //Hint: used in the FOR Loop
 for (let i=10; i<=difference; i++){
   even = (startingNumber += skipCount) % 2;
   odd = (i+1 += skipcount) % 2;
