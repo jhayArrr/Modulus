@@ -31,7 +31,7 @@ simpleOperators (number[2], number[3]);
 skipCounting (2, 10, 11);
 skipCounting (2, 10, 10);
 
-console.log(CS 20- Assignment)
+console.log(Modulus)
 let oddNumbers = [];
 let evenNumbers = [];
 
