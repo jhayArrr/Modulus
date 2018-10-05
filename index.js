@@ -32,13 +32,13 @@ skipCounting (2, 10, 11);
 skipCounting (2, 10, 10);
 
 console.log()
-let oddNumbers = [oddNumbers];
-let evenNumbers = [evenNumbers];
+let oddNumbers = [];
+let evenNumbers = [];
 
 // Sequence of 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th
 oddNumbers = [11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
 evenNumbers = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 //printing out entire onject]
-console.log(oddNumbers)
-console.log(evenNumbers)
+console.log(oddNumbers);
+console.log(evenNumbers);
