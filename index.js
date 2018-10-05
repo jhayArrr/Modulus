@@ -44,11 +44,11 @@ evenNumbers = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
 console.log(oddNumbers);
 console.log(evenNumbers);
 
-let Numbers = [10, 29]; //Boundary Numbers
+let number = [10, 29]; //Boundary Numbers
 let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
-let difference = number[1] - number[0]; //Difference, mandatory expectation
-let startingNumber = number[8]; //Hint: used in the FOR Loop
-for (let i=1; i<=difference; i++){
-  even = (startingNumber += skipCount) % 10;
+let difference = number[2] - number[0]; //Difference, mandatory expectation
+let startingNumber = number[10]; //Hint: used in the FOR Loop
+for (let i=0; i<=difference; i++){
+  even = (startingNumber += skipCount) % 2;
   console.log("This number is", even, "; This iteration is number", i+skipCount); //Example of Concatenating
 }
