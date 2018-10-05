@@ -1,7 +1,7 @@
 // concatenating the numberStart
 let number = [10, 29]; //Boundary Numbers
 let skipCount = 2; //Number of skipCounting between each element of the sequence, used in FOR Loop
-let difference = number[] - number[]; //Difference, mandatory expectation
+let difference = number[10] - number[0]; //Difference, mandatory expectation
 let startingNumber = number[]; //Hint: used in the FOR Loop
 for (let i=10; i<=difference; i++){
   even = (startingNumber += skipCount) % 2;
@@ -43,7 +43,7 @@ simpleOperators (number[2], number[3]);
 skipCounting (2, 10, 11);
 skipCounting (2, 10, 10);
 
-console.log()
+console.log(Arrays)
 let oddNumbers = [];
 let evenNumbers = [];
 
