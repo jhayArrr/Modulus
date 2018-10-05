@@ -1,5 +1,3 @@
-console.log(Arrays
-)
 function simpleOperators (numberA, numberB){
   let adding = numberA + numberB;
   let subtract = numberA - numberB;
