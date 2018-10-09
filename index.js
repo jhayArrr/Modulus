@@ -26,11 +26,11 @@ function howManyTimes (numberStart, numberEnd) {
 }
 
 
-let number = [10, 29]
+let number = [1, 20]
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-skipCounting (2, 10, 11);
-skipCounting (2, 10, 10);
+skipCounting (1, 10, 11);
+skipCounting (1, 10, 10);
 
 console.log()
 let oddNumbers = [];
