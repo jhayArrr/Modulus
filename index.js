@@ -30,7 +30,7 @@ let number = [1, 20]
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
 skipCounting (1, 10, 1);
-skipCounting (1, 10, 2);
+skipCounting (1, 10, 11);
 
 console.log()
 let oddNumbers = [];
