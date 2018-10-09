@@ -29,16 +29,16 @@ function howManyTimes (numberStart, numberEnd) {
 let number = [1, 20]
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-skipCounting (1, 10, 11);
-skipCounting (1, 10, 10);
+skipCounting (1, 10, 1);
+skipCounting (1, 10, 2);
 
 console.log()
 let oddNumbers = [];
 let evenNumbers = [];
 
 // Sequence of 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th
-oddNumbers = [11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
-evenNumbers = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
+oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 //printing out entire onject]
 console.log(oddNumbers);
